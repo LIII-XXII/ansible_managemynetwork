@@ -178,7 +178,7 @@ openwrt_firewall_ruleshost:
     target: "ACCEPT"
 ```
 
-In contrast to the common ansible convention of defning group variable values within the actual group scope we need a more global group containing all hosts like **tags_allhosts**. The assocition to the group(s) is done via a dict item representing the actual group name. In this example the groups are *openwrthosts* and *openwrtaccesspoints*.
+In contrast to the common ansible convention of defning group variable values within the actual group scope we need a more global group containing all hosts like **tags_allhosts**. The association to the group(s) is done via a dict item representing the actual group name. In this example the groups are *openwrthosts* and *openwrtaccesspoints*.
 
 ```
 openwrt_packagesinstallgroup:
