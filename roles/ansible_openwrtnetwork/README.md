@@ -304,7 +304,7 @@ Here are the most important options for
 | mtu | self explanatory |
 | persistent_keepalive | self explanatory |
 | preshared_key | preshared key for extra security. Only set manually when setpsk is set to false |
-| public_key | public key of the remote remote peer. Only set when `managkeys` is set to false |
+| public_key | public key of the remote peer. Only set when `managkeys` is set to false |
 | remote_peer | This is only needed when Ansible manages the remote peer as well. This option will fetch the remote peer's public key for your config. |
 | route_allowed_ips | self explanatory |
 | setpsk | If you set `setpsk` to `true` an additional PSK (Preshared Key)  will be used. |
