@@ -277,12 +277,12 @@ As in most sections there is also the possibility to defines rules on a Ansible 
 ```yaml
 openwrt_firewall_rulesgroup:
   openwrtaccesspoints:
-    "Admin Access":
+    - "Admin Access":
       src: "MGMT"
       proto: "all"
       target: "ACCEPT"
   openwrtrouter:
-    "LAN to MGMT HTTP Admins":
+    - "LAN to MGMT HTTP Admins":
       src: "LAN"
       dest: "MGMT"
       proto: "tcp"
